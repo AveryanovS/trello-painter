@@ -1,4 +1,5 @@
 {
-  "done": "lightgreen",
-  "todo": "#ffdd99"
+  "баги": "#ffeee6",
+  "todo": "#fff7e6",
+  "done": "#e6ffe6"
 }
