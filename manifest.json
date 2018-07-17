@@ -12,5 +12,8 @@
         "run_at":"document_end",
         "js": ["painter.js"]
       }
+    ],
+    "web_accessible_resources": [
+      "/keywords.json"
     ]
   }
