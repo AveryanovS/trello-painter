@@ -2,5 +2,15 @@
     "name": "Trello Painter",
     "description" : "Parses key words in trello list names, and colours lists background by them",
     "version": "1.0",
-    "manifest_version": 1
+    "manifest_version": 2,
+    "permissions": [
+      "activeTab"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://*.trello.com/b/*"],
+        "run_at":"document_end",
+        "js": ["painter.js"]
+      }
+    ]
   }
