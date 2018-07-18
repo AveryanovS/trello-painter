@@ -1,5 +1,12 @@
 {
-    "баги": "#ffeee6",
-    "todo": "#fff7e6",
-    "done": "#e6ffe6"
+    "colors":{
+        "баги": "#ffeee6",
+        "todo": "#fff7e6",
+        "done": "#e6ffe6"
+    },
+    "transparency":{
+        "фронт": 0.5,
+        "backlog": 0.7,
+        "done": 0.7
+    }
 }
